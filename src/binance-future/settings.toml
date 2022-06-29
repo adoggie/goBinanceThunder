@@ -1,0 +1,30 @@
+
+thunder_id="thunder_lch"
+service_type="cc_thunder"
+pos_mx_addr = "tcp://172.16.30.21:15552"
+# redis_server = { addr="172.16.30.21:6379",password="",db=0 }
+redis_server = { addr="127.0.0.1:6379",password="",db=0 }
+logfile = "binanceThunder.log"
+pslog_dir ="./"
+report_status_interval =5
+
+account = "lch"
+userstream_keep_interval = 60       # 保持ws的用户数据流
+message_pub_chan = "thunder_message_chan"
+
+
+[[accounts]]
+# lch / 50u
+name = "lch"
+api_key = ""
+secret_key = ""
+
+
+[[symbols]]
+name = "XRPUSDT"
+enable = true
+limit_position = 0
+timeout = 30
+order_type = "LIMIT" # MARKET
+ticks = 1
+leverage = 1    # 开仓杠杆

@@ -1,0 +1,13 @@
+
+redis
+https://redis.uptrace.dev/guide/go-redis-pubsub.html
+
+
+binance.com
+https://www.binance.com/zh-CN/futures/trading-rules
+
+binance-docs.github.io/apidocs/futures/cn/#trade-3
+
+https://www.binance.com/zh-TW/support/faq/360033161972
+
+https://www.binance.com/zh-CN/futures/trading-rules/perpetual
